@@ -1,0 +1,13 @@
+__pycache__/
+.patch_store/
+build/
+eggs/
+*.egg*
+dist/
+/ext/orbetto/subprojects/perfetto
+/ext/orbetto/subprojects/orbuculum
+/ext/orbetto/subprojects/libdwarf*
+/ext/orbetto/subprojects/packagecache
+/ext/orbetto/*.perf
+/ext/orbetto/*.gz
+/ext/orbetto/*.debug
