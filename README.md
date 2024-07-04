@@ -1,3 +1,7 @@
+이 프로젝트는 auterion의 [Embedded Debug Tools](https://github.com/Auterion/embedded-debug-tools/tree/main)을 개조해 만들어졌습니다.
+
+---
+
 # Embedded Debug Tools
 
 The emdbg library connects several software and hardware debugging tools
