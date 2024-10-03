@@ -35,6 +35,9 @@ enum
     EMDBG_DMA_START = 13,
     EMDBG_DMA_STOP = 14,
 
+    // DWT
+    EMDBG_DMA_CATCH = 15,
+
     // the rest are optional user channels
     EMDBG_UART4_TX = 30,
     EMDBG_UART4_RX = 31,
@@ -120,6 +123,9 @@ enum
 
 #define EMDBG_LOG_DMA_STOP(channel) \
     { emdbg_itm8_block(EMDBG_DMA_STOP, ((uint8_t)channel->ctrl << 5) | (uint8_t)channel->chan); }
+
+#define EMDBG_LOG_DWT_CATCH(item) \
+    emdbg_itm8_block(EMDBG_DWT_CATCH, 0);
 
 typedef struct
 {
