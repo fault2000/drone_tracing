@@ -119,6 +119,9 @@ define px4_configure_orbuculum
     # Enable DMA profiling
     # set $TER |= 0x00007000
 
+    # Enable DWT ports
+    set $TER |= 0x00008000
+    
     # Enable all optional user channels
     set $TER |= 0xFFFF0000
 
