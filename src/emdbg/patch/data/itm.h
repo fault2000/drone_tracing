@@ -126,6 +126,7 @@ enum
 
 #define EMDBG_DWT_CATCH(channel) \
     { emdbg_itm8_block(EMDBG_DWT_CATCH, 0); }
+
 typedef struct
 {
     volatile union
