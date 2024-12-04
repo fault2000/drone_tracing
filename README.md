@@ -1,4 +1,5 @@
 이 프로젝트는 auterion의 [Embedded Debug Tools](https://github.com/Auterion/embedded-debug-tools/tree/main)을 개조해 만들어졌습니다.
+기존 앱과 협업하여 만들어졌던 관계로, DWT 기능을 쓰기 위해서는 본인의 DWT app에 ITM.h 파일을 include한 뒤 EMDBG_LOG_DWT_CATCH 함수를 선언하여 구현해야 합니다.
 
 ---
 
